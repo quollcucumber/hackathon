@@ -1,3 +1,5 @@
+## sample code, requires numpy as np, matplotlib.pyplot as plt and pandas as pd
+
 # correlation between two columns
 
 import pandas as pd
@@ -18,4 +20,17 @@ for i in range(len(corr.columns)):
 plt.xticks(range(len(corr.columns)), corr.columns, rotation=45)
 plt.yticks(range(len(corr.columns)), corr.columns)
 plt.title("Correlation Heatmap")
+plt.show()
+
+# scatter plot
+
+plt.scatter(df[], df[], color='blue')
+
+slope, intercept = np.polyfit(df[], df[], 1)
+plt.plot(df[], slope * df[] + intercept, color='red')
+
+plt.xlabel("Hours Studied")
+plt.ylabel("Exam Score")
+plt.title("Scatter Plot with Trend Line")
+
 plt.show()
