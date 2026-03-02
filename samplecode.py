@@ -29,8 +29,8 @@ plt.scatter(df[], df[], color='blue')
 slope, intercept = np.polyfit(df[], df[], 1)
 plt.plot(df[], slope * df[] + intercept, color='red')
 
-plt.xlabel("Hours Studied")
-plt.ylabel("Exam Score")
+plt.xlabel()
+plt.ylabel()
 plt.title("Scatter Plot with Trend Line")
 
 plt.show()
