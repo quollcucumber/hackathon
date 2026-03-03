@@ -1,1 +1,2 @@
+df["How long does it take you to travel to school (one way)?"] = df["How long does it take you to travel to school (one way)?"].replace(["Under 15 minutes", "15–30 minutes", "31–60 minutes", "More than 60 minutes"], [0, 1, 2, 3], inplace=True)
 df['What grade do you usually achieve overall?'] = df['What grade do you usually achieve overall?'].replace(['A+', 'A', 'B+', 'B', 'C', 'D or below'], [0, 1, 2, 3, 4, 5], inplace=True)
